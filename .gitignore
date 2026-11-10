@@ -1,0 +1,23 @@
+# Windows and Office temporary files
+~$*
+*.tmp
+Thumbs.db
+desktop.ini
+
+# Local environment and private configuration
+.local/
+.env
+*.local.*
+application-local.yml
+*.sql
+*.dump
+*.log
+
+# Build outputs
+node_modules/
+frontend/dist/
+backend/target/
+
+# IDE files
+.vscode/
+.idea/
